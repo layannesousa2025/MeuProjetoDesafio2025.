@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    /*margem do site*/
+    padding: 0;
+    /*espasamento interno do site*/
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-futurista-de-tecnologia-gradiente_23-2149122416.jpg');
+
+}
+
+
+header {
+    background-color: #556e86;
+    /* mundadndo a cor do menu do meu site*/
+    color: white;
+    /* Cor do texto */
+    display: flex;
+    /* Usando flexbox para layout */
+    justify-content: space-between;
+    /* Espaço entre logo e menu */
+    align-items: center;
+    /* Alinha verticalmente */
+    padding: 10px;
+    /* Espaçamento interno */
+
+
+
+}
+
+#logo{
+    display: flex;
+  
+}
+
+h1{
+  margin-left: 80px;
+}
+
+
+
+header img {
+    width: 60px;
+    /* alterando a lagura da minha imagem*/
+    border-radius: 5px;
+
+}
+
+nav ul {
+    display: flex;
+    /* tiro de coluna e passo para linha*/
+    justify-content: center;
+    /*centralizar o centro do menu*/
+    list-style: none;
+    /*tira os macadores da lista não ordenadas*/
+}
+
+header nav ul li {
+    margin: 15px;
+   
+
+}
+
+header nav ul li a {
+    color: white;
+    /* muda a cor da letras*/
+    text-decoration: none;
+    /* Tira a linha do texto */
+    font-weight: bold;
+    /* deixa a letra do menu negrito */
+    padding: 5px 10px;
+    /* espaçamento entre menu*/
+}
+
+a:hover {
+    background-color: rgb(85, 129, 224);
+    color: rgb(247, 244, 244);
+    /* altera a cor da letra quando o mouse passa sobre o menu*/
+    border-radius: 10px;
+    /* arredonda as bordas do menu*/
+}
+
+
+#home {
+    background-color: #48D1CC;
+
+    :hover {
+        color: rgb(247, 244, 244);
+    }
+
+}
+
+main{
+height: 800px;
+}
+
+#TelaLogin {
+    background-color: #BA55D3;
+    height: 600px;
+    
+
+}
+
+#TelaLogin :hover {
+    color: rgb(247, 244, 244);
+}
+
+#Contato {
+    background-color: #FFB6C1;
+
+    :hover {
+        color: rgb(247, 244, 244);
+    }
+}
+
+
+
+#TelaLogin {
+    background-color: #444366;
+
+    :hover {
+        color: rgb(247, 244, 244);
+    }
+}
+
+#TelaContato {
+    background-color: #FFB6C1;
+
+    :hover {
+        color: rgb(247, 244, 244);
+    }
+}
+
+
+
+:hover {
+    color: rgb(247, 244, 244);
+}
+
+
+
+
+#Tela-Login {
+
+    max-width: 400px;
+    background-color: rgb(149, 156, 161);
+    padding: 55px;
+    border-radius: 12px;
+    margin: 30px;
+    text-align: justify;
+    margin-left: 710px;
+    margin-top: 200px;
+}
+
+
+
+label {
+    display: block;
+    /*colocar todo formulario um em baixo do outro*/
+    margin-bottom: 3px;
+    /*espaçamento entre linhas*/
+    font-weight: bold;
+    /*colocar a cor da letra em netrito*/
+
+}
+
+input {
+    width: 100%;
+    /*largura do input*/
+    padding: 8px;
+    /*espamento no input*/
+    border-radius: 8px;
+    /*arrendondar borda do input*/
+    border: 5px solid #e5bcbc55;
+    /*cor da borda do input*/
+    color: rgb(82, 75, 82);
+    /*cor da letra do input*/
+    font-size: 18px;
+    /*tamanho da letra do input*/
+    font-weight: bold;
+    /*letra do input em negrito*/
+    margin-bottom: 20px;
+    /*espaçamento entre linhas*/
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+button {
+    width: 40%;
+    /*tamanhao do butao*/
+    height: 30px;
+    /*lagura*/
+    border-radius: 8px;
+    /*as bordas redondas*/
+    border: none;
+    /*serve para tira as bordas do butao*/
+    background-color: rgb(152, 224, 138);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    /*passa o mouse */
+
+}
+
+button[type="reset"] {
+    background-color: rgb(221, 95, 95);
+    margin-top: 10px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+input[type=checkbox] {
+    width: 30px;
+    height: 13px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+
+
+ul,li {
+    list-style-type: none;
+    font-style: 15px;
+    display: flex;
+    /* tiro de coluna e passo para linha*/
+    justify-content: center;
+    /*centralizar o centro do menu*/
+    padding-left: 15px;
+    color: rgb(172, 207, 237);
+
+}
+
+#princial-rodape {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(38, 40, 67);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.imagem-rodape img{
+    width: 90px;
+    height: auto;
+    background-color: #708090 ;
+    border-radius: 10px;
+
+}
+
+.diretos-resevados, .imagem-rodape, .redes-sociais{
+    max-width: 300px;
+    font-size: 15px;
+
+}
+
+

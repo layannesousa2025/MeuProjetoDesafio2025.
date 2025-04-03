@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('https://img.freepik.com/vetores-gratis/fundo-futurista-de-tecnologia-gradiente_23-2149122416.jpg');
+
+}
+
+
+header {
+  background-color: #556e86;
+  /* mundadndo a cor do menu do meu site*/
+  margin: 0;
+  color: rgb(105, 77, 77); /* Cor do texto */
+  display: flex; /* Usando flexbox para layout */
+  justify-content: space-between; /* Espaço entre logo e menu */
+  align-items: center; /* Alinha verticalmente */
+  padding: 10px ; /* Espaçamento interno */
+  width: 100%;
+}
+
+#logo{
+  display: flex;
+}
+
+
+#cabeçalho{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: rgb(199, 215, 230);
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin: 10px;
+  margin-right: 170px;
+
+}
+
+
+header img {
+  width: 60px;
+  /* alterando a lagura da minha imagem*/
+  border-radius: 5px;
+
+}
+
+nav ul {
+  display: flex;
+  /* tiro de coluna e passo para linha*/
+  justify-content: center;
+  /*centralizar o centro do menu*/
+  list-style: none;
+  /*tira os macadores da lista não ordenadas*/
+}
+
+header nav ul li {
+  margin: 15px;
+  /* altera o tipo de cor do menu*/
+
+}
+
+header nav ul li a {
+  color: white;
+  /* muda a cor da letras*/
+  text-decoration: none;
+  /* Tira a linha do texto */
+  font-weight: bold;
+  /* deixa a letra do menu negrito */
+  padding: 5px 10px;
+  /* espaçamento entre menu*/
+}
+
+a:hover{
+   background-color: rgb(17, 84, 230);
+   color: rgb(247, 244, 244);
+  /* altera a cor da letra quando o mouse passa sobre o menu*/
+  border-radius: 10px;
+  /* arredonda as bordas do menu*/
+}
+
+
+#home{
+  background-color: #24e0da;
+  :hover{
+      color: rgb(243, 233, 233);
+  }
+
+} 
+  
+
+#TelaLogin{
+  background-color: #7f6cec ;
+  :hover{
+      color: rgb(247, 244, 244);
+  }
+
+}
+#TelaContato{
+  background-color: 	#FFB6C1 ;
+  :hover{
+      color: rgb(247, 244, 244);
+  }
+
+}
+
+#TelaTabela{
+  background-color: #FF1493;
+  :hover{
+      color: rgb(247, 244, 244);
+  }
+}
+
+
+
+.principal{
+  background-color: rgb(242, 245, 247);
+  font-size: 19px;
+  padding: 90px;
+  margin-top: 200px;
+  margin-left: 90px;
+  margin-right: 90px;
+  border-radius: 20px;
+  background-color: #aaa2d668;
+ 
+  
+}
+
+h1{
+ font-size: 40px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ margin-left: 100px;
+ color: white;
+}
+
+p{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 50px;
+gap: 50px;
+font-size: 30px;
+
+
+}
+
+
+
+    

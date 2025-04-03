@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    /*margem do site*/
+    padding: 0;
+    /*espasamento interno do site*/
+}
+
+body {
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-futurista-de-tecnologia-gradiente_23-2149122416.jpg');
+
+}
+
+
+header {
+    background-color: #556e86;
+    /* mundadndo a cor do menu do meu site*/
+    margin: 0;
+    color: rgb(238, 229, 229); /* Cor do texto */
+    display: flex; /* Usando flexbox para layout */
+    justify-content: space-between; /* Espaço entre logo e menu */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px ; /* Espaçamento interno */
+    width: 100%;
+
+}
+
+#logo,h1{
+  display: flex;
+   
+
+
+}
+
+h1{
+    margin-top: 12px;
+}
+
+
+
+#cadastro-cliente h1{
+    font-size: 30px;
+    color: #75816f;
+    display: flex;
+    width: 95%;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+
+
+
+
+header img {
+    width: 60px;
+    /* alterando a lagura da minha imagem*/
+    border-radius: 5px;
+
+}
+
+nav ul {
+    display: flex;
+    /* tiro de coluna e passo para linha*/
+    justify-content: center;
+    /*centralizar o centro do menu*/
+    list-style: none;
+    /*tira os macadores da lista não ordenadas*/
+}
+
+header nav ul li {
+    margin: 15px;
+    /* altera o tipo de cor do menu*/
+
+}
+
+a{
+    color: #0f1111;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: rgb(85, 129, 224);
+    color: rgb(247, 244, 244);
+    /* altera a cor da letra quando o mouse passa sobre o menu*/
+    border-radius: 10px;
+    /* arredonda as bordas do menu*/
+}
+
+
+#home {
+    background-color: #48D1CC;
+
+    :hover {
+        color: rgb(247, 244, 244);
+    }
+
+}
+
+
+#TelaLogin {
+    background-color: #BA55D3;
+
+    :hover {
+        color: rgb(247, 244, 244);
+    }
+}
+
+#TelaContato {
+    background-color: #FFB6C1;
+
+    :hover {
+        color: rgb(247, 244, 244);
+    }
+}
+
+#TelaTabela {
+    background-color: #FF1493;
+
+    :hover {
+        color: rgb(247, 244, 244);
+    }
+}
+
+
+#contato{
+        display: block;
+        /*colocar todo formulario um em baixo do outro*/
+        margin-bottom: 5px;
+        /*espaçamento entre linhas*/
+        font-weight: bold;
+        /*colocar a cor da letra em netrito*/
+
+    }
+
+    form {
+        max-width: 400px;
+        background-color: rgb(228, 224, 220);
+        padding: 10px;
+        border-radius: 5px;
+        margin: auto;
+        border: 3px solid #b7b3b2;
+        min-width: 10px;
+        height: 700px;
+        margin-top: 100px;
+    }
+
+    input {
+        font-size: 100px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 15px;
+        border: 3px solid #bea19f;
+
+
+    }
+
+    input[type="radio"] {
+        text-align: justify;
+        width: 15px;
+        height: 15px;
+        accent-color: #c68be3;
+        /* Altera a cor padrão do botão */
+        cursor: pointer;
+    }
+
+
+    button{
+        display: flex;
+        width: 50%;
+        
+    }
+
+    button[type="submit"] {
+        background-color: #8ef15c;
+        /* Green */
+        border: 3px solid #ced7cf;
+        color: white;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-left: 100px;
+        cursor: pointer;
+
+    }
+
+    button[type="reset"] {
+        background-color: #f35241;
+        /* Green */
+        border: 3px solid #ced7cf;
+        color: white;
+        padding: 10px 15px;
+        /* text-align: center; */
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+
+
+    #princial-rodapé, footer {
+            background-color: rgb(38, 40, 67);
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            position: relative;
+            top: 70px;
+
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 5px;
+            margin-right: 100px;
+
+        }
+
+        #princial-rodape {
+            width: 100%;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            flex-wrap: wrap;
+          
+        }
+        .imagem-rodape img{
+            width: 90px;
+            height: auto;
+            background-color: rgb(38, 40, 67) ;
+        
+        }
+        
+        .diretos-resevados, .imagem-rodape, .redes-sociais{
+            max-width: 300px;
+        
+        }
+
+
